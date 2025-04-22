@@ -44,7 +44,7 @@ echo "Quitting AnyDesk if running..."
 osascript -e 'quit app "AnyDesk"'
 
 # Wait for AnyDesk to close completely
-sleep 2
+sleep 5
 
 # Remove AnyDesk from Applications
 echo "Removing AnyDesk from Applications..."
